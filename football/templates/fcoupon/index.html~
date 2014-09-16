@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>FootballCoupon!</title>
+</head>
+
+<body>
+	<h1> Hello and Welcome to FootballCoupon!</h1>
+	Hello :) !<br>
+	<strong> {{ boldmessage }}</strong><br>
+	<a href="/fcoupon/about/">About</a><br>
+	<img src="/static/football.png" alt="Picture of Football" />
+</body>
+
+</html>

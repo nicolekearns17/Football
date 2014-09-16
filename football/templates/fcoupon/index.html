@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>FootballCoupon!</title>
+</head>
+
+<body>
+	<h1> Hello and Welcome to FootballCoupon!</h1>
+	Hello :) !<br>
+	<a href="/fcoupon/about/">About</a><br>
+	<img src="/static/football.png" alt="Picture of Football" />
+
+	{% if categories %}
+	<ul>
+		{% for category in categories %}
+		<li> {{ category.name }} </li>
+		{% endfor %}
+	</ul>
+	{% else %}
+		<strong> no categories present.</strong>
+	{% endif %}
+
+</body> 
+
+</html>
